@@ -1,0 +1,33 @@
+{
+  "name": "music_player_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "sass": "^1.32.11"
+  },
+  "scripts": {
+    "start": "nodemon --inspect MP3project/src/resource/main/song.js",
+    "watch": "node-sass MP3project/src/resource/scss/song.scss MP3project/src/public/css/song.css",
+    "watch1": "node-sass MP3project/src/resource/scss/video.scss MP3project/src/public/css/video.css",
+    "watch2": "node-sass MP3project/src/resource/scss/style.scss MP3project/src/public/css/style.css ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngohonggiang/Music_Player_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngohonggiang/Music_Player_App/issues"
+  },
+  "homepage": "https://github.com/ngohonggiang/Music_Player_App#readme"
+}
