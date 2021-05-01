@@ -15,7 +15,7 @@
     "sass": "^1.32.11"
   },
   "scripts": {
-    "start": "nodemon --inspect MP3project/src/resource/main/song.js",
+    "start": "nodemon --inspect MP3project/src/resource/main/control.js",
     "watch": "node-sass MP3project/src/resource/scss/song.scss MP3project/src/public/css/song.css",
     "watch1": "node-sass MP3project/src/resource/scss/video.scss MP3project/src/public/css/video.css",
     "watch2": "node-sass MP3project/src/resource/scss/style.scss MP3project/src/public/css/style.css ",

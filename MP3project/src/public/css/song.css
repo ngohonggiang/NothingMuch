@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url("/background1.jpg");
+  background-image: url("/MP3project/src/public/image/background.jpg");
   background-size: cover; }
 
 .main img {

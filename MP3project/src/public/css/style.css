@@ -11,7 +11,7 @@
 .body1 {
   font-family: Arial;
   font-size: 14px;
-  background-image: url("/background.jpg");
+  background-image: url("/MP3project/src/public/image/background.jpg");
   background-size: cover; }
 
 .clearfix {
