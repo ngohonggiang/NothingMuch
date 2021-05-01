@@ -1,23 +1,40 @@
 body {
-  background-image: url("/MP3project/src/public/image/background1.jpg");
-  background-size: cover;
-  font-family: Arial; }
+    background-image: url("/MP3project/src/public/image/background1.jpg");
+    background-size: cover;
+    font-family: Arial;
+}
 
 .content {
-  margin: 0 150px; }
+    width: 100%;
+    margin: 0 150px;
+}
 
-.content div {
-  float: left;
-  margin-bottom: 50px; }
+.content div{
+    float: left;
+    margin-bottom: 50px;
+}
+
+input[type="text"] {
+    float: right;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: none;
+    font-size: 17px;
+}
 
 video {
-  width: 350px;
-  margin-right: 100px;
-  margin-bottom: 15px; }
+    width: 350px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
 
 p {
-  font-size: 15px;
-  margin-top: 15px; }
+    font-size: 15px;
+    margin-top: 15px;
+
+}
 
 h4 {
-  text-transform: uppercase; }
+    text-transform: uppercase;
+}
